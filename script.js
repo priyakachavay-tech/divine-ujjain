@@ -25,19 +25,18 @@ form.addEventListener("submit", function(event){
 
 });
 
-let topBtn = document.getElementById("topBtn");
-
-topBtn.addEventListener("click", function() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
-
 window.addEventListener("scroll", function() {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 200) {
         topBtn.style.display = "block";
     } else {
         topBtn.style.display = "none";
     }
 });
+
+topBtn.onclick = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+};
+
