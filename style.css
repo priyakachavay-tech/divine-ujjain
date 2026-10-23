@@ -345,7 +345,7 @@ html{
     margin-top: 20px;
 }
 
-#top{
+#topBtn{
 
     position: fixed;
     bottom: 20px;
@@ -360,7 +360,7 @@ html{
     font-weight: bold;
 }
 
-#top:hover{
+#topBtn:hover{
 
     background-color: goldenrod;
     color: #701d2b;
