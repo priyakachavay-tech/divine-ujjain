@@ -166,22 +166,22 @@ nav a:hover{
 
 .card1{
 
-    background-image: url("images/mahakal.jpeg");  
+    background-image: url("mahakal.jpeg");  
 }
 
 .card2{
 
-    background-image: url("images/harsidhdhi.jpeg");   
+    background-image: url("harsidhdhi.jpeg");   
 }
 
 .card3{
 
-    background-image: url("images/Bhairav.jpeg"); 
+    background-image: url("Bhairav.jpeg"); 
 }
 
 .card4{
 
-    background-image: url("images/gadkalika.jpeg");    
+    background-image: url("gadkalika.jpeg");    
 }
 
 .card1 h3, .card2 h3, .card3 h3, .card4 h3 {
