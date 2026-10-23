@@ -1,0 +1,352 @@
+body{
+
+
+    background-color: #faf3e5;
+    
+}
+
+nav{
+
+    background-color: #701d2b;
+    padding: 25px;
+    margin: 0;
+
+
+}
+
+nav h1{
+
+   color: burlywood;
+   margin: 0;
+   
+}
+
+nav a{
+
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+
+    color: burlywood;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap ;
+    gap: 15px ;
+
+
+}
+
+.hero{
+ 
+    min-height: 200px;
+    padding: 15px;
+    color:white;
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.65) ), url("images/Temple.jpg");
+    background-size: cover;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+
+}
+
+
+.hero h2{
+
+    font-size: 16px;
+}
+
+.hero h1{
+
+    font-size: 28px;
+}
+
+
+#btn{
+
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    margin: auto;
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+
+    background-color: gold;
+}
+
+
+@media(max-width: 600px){
+
+    .container{
+
+        flex-direction: column;
+    }
+
+    nav a{
+
+        padding: 10px;
+    }
+
+
+}
+
+#Temples{
+
+    text-align: center;
+    padding: 30px 15px;
+    color: #701d2b;
+}
+
+#Temples h2{
+
+    font-size: 28px;
+    margin-bottom: 10px ;
+
+}
+
+.card{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    width: auto;
+}
+
+.card1, .card2, .card3, .card4{
+
+
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+   
+   }
+
+   .temple-item {
+
+    width: 300px;
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+
+   }
+
+   .temple-item:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(112, 29, 43, 0.25);
+
+   }
+
+.card1{
+
+    background-image: url("images/mahakal.jpeg");  
+}
+
+.card2{
+
+    background-image: url("images/harsidhdhi.jpeg");   
+}
+
+.card3{
+
+    background-image: url("images/Bhairav.jpeg"); 
+}
+
+.card4{
+
+    background-image: url("images/gadkalika.jpeg");    
+}
+
+.card1 h3, .card2 h3, .card3 h3, .card4 h3 {
+
+
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+
+
+.temple-item p{
+
+    color: #701d2b;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 0 15px 15px;
+    margin: 0;
+}
+
+#About {
+           text-align: center;
+           padding: 40px 20px;
+           color: #701d2b;
+        }
+
+ #About h2 {
+           
+           font-size: 28px;
+          }
+
+ #About p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+             }
+
+#Contact {
+     
+        background-color: #f3e5c8;
+        text-align: center;
+        padding: 40px 20px;
+        color: #701d2b;
+    }
+
+#Contact h2{
+
+        font-size: 28px;
+    }
+
+#Contact p{
+
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.8;
+    }
+
+#Contact form{
+
+        width: 100%;
+        max-width: 500px;
+        box-sizing: border-box;
+        margin: 20px auto;
+        background-color: #faf3e5;
+        text-align: center;
+        padding: 25px 15px;
+        color: #701d2b;
+        border-radius: 10px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+
+    }
+
+    #Contact input, #Contact textarea{
+
+        border: 2px solid goldenrod;
+        border-radius: 10px;
+        text-align: center;
+        padding: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: cursive;
+        width: 100%;
+        max-width: 350px;
+        background-color: lightgoldenrodyellow;
+        box-sizing: border-box;
+
+    }
+
+    #Contact button {
+    border: 3px solid #701d2b;
+    background-color: burlywood;
+    color: #701d2b;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+   
+
+    #Contact button:hover{
+
+        background-color: maroon;
+        color: burlywood;
+    }
+
+    @media (max-width: 600px){
+
+    .card{
+
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .temple-item{
+
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .card1, .card2, .card3, .card4{
+
+        height: 230px;
+    }
+
+    #Contact input{
+
+        padding: 12px;
+        
+    }
+
+    #Contact textarea{
+
+        width: 100%;
+        max-width: 350px;
+    }
+  }
+
+  footer {
+
+    background-color: maroon;
+    color: burlywood;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    border-top: 3px solid goldenrod;
+  }
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+#successMessage{
+
+    display: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mahakal{
+
+    max-height: 50px;
+    overflow: hidden;
+}
